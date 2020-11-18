@@ -1,6 +1,7 @@
-# Запуск шифрования:
-python encrypt.py -i file.txt -o encrypted.txt -k key.txt           # file.txt - файл с текстом для шифрования, key.txt - ключ шифрования
-
-# Запуск дешифрования: 
-python decrypt.py -i encrypted.txt -o decrypted.txt -k key.txt      # encrypted.txt - файл из предыдущего шага, key.txt - ключ шифрования
+Ключ: 12345
+Подблок: 64
+Раунд: 12
+Текст для шифрования: Hello, word
+Шифр: b'5\x1d7\x14\xc7^Ah\xf5\xbe\x01\xaf\x12T\x9d\x8d'
+Первоначальный текст: Hello, word     
 
