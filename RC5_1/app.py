@@ -11,3 +11,4 @@ decrypt_text = RC5(w, X, key)
 print("Шифр:", encrypt_text.encryptPart(text))
 
 print("Первоначальный текст: " + (decrypt_text.decryptBlock(decrypt_text.encryptPart(text))).decode('utf-8'))
+
