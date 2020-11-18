@@ -2,8 +2,8 @@ class RC5:
 
     # Инициализация необходимых стартовых переменных
     def __init__(self, w, X, key):
-        self.w = w
-        self.X = X
+        self.w = w  # подблок
+        self.X = X  # раунд
         self.key = key
         self.Y = 2 * (X + 1)
         self.w4 = w // 4
